@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.penguinencounter.safetyclick.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ScreenOverloading$ChatScreenMixin",
+    "ScreenOverloading$BookScreenMixin",
+    "ScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

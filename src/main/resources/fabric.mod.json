@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "safetyclick",
+  "version": "${version}",
+  "name": "SafetyClick",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/safetyclick/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.penguinencounter.safetyclick.client.SafetyclickClient"
+    ]
+  },
+  "mixins": [
+    "safetyclick.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
